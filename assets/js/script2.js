@@ -30,9 +30,16 @@ $("#boton").click(function () {
       //console.log(data);
       let name = data.forms[0].name;
       let img = data.sprites.other.dream_world.front_default;
-      //console.log(img);
+      let ability = data.abilities[0].ability.name;
+      let hiddenAbility = data.abilities[1].ability.name;
+      let move = data.moves[0].move.name;
+
       $('#namePokemon').text(name);
       $('#imgPokemon').attr('src', img);
+      $('#abilityPokemon').text(ability);
+      $('#hiddenAbilityPokemon').text(hiddenAbility);
+      $('#movePokemon').text(move);
+      //console.log(move);
 
     }
   });
