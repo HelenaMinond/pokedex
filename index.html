@@ -30,10 +30,10 @@
     </form>
   </section>
 
-  <section class="informacion container-fluid mt-5">
+  <section class="informacion container-fluid">
     <div class="informacion__caracteriticas row justify-content-evenly">
       <!-- ********************* -->
-      <div class="informacion__caracteristicas--tabla col-12 col-sm-3">
+      <div class="informacion__caracteristicas--tabla col-12 col-sm-3 mt-4">
         <h4>Datos Pokemón</h4>
         <table class="table table-dark table-striped">
           <thead>
@@ -44,12 +44,12 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Habilidad</th>
-              <td id="abilityPokemon">OVERGROW</td>
+              <th scope="row">Tipo</th>
+              <td id="typePokemon">GRASS</td>
             </tr>
             <tr>
-              <th scope="row">Habilidad Oculta</th>
-              <td id="hiddenAbilityPokemon">CHLOROPHYLL</td>
+              <th scope="row">Habilidad</th>
+              <td id="abilityPokemon">OVERGROW</td>
             </tr>
             <tr>
               <th scope="row">Ataque</th>
@@ -59,12 +59,12 @@
         </table>
       </div>
       <!-- ********************* -->
-      <div class="informacion__caracteristicas--grafico col-12 col-sm-6">
+      <div class="informacion__caracteristicas--grafico col-12 col-sm-6 mt-4">
         <h4>Estadísticas Pokemón</h4>
         <canvas id="graphicPokemon"></canvas>
       </div>
       <!-- ********************* -->
-      <div class="informacion__caracteristicas--imagen col-12">
+      <div class="informacion__caracteristicas--imagen col-12 mt-4">
         <h4>Imagen Pokemón</h4>
         <p>(tamaño proporcional)</p>
         <img id="imgPokemon" class=" mb-3" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Imagen Bulbasaur">
@@ -74,7 +74,7 @@
   </section>
 
   <!--Mi script-->
-  <script type="text/javascript" src="assets/js/script2.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
